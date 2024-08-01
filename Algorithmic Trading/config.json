@@ -1,0 +1,16 @@
+{
+    "symbols": ["AAPL", "GOOGL", "MSFT", "AMZN"],
+    "start_date": "2020-01-01",
+    "end_date": "2023-12-31",
+    "initial_capital": 1000000,
+    "risk_aversion": 0.5,
+    "risk_per_trade": 0.02,
+    "max_position_size": 10000,
+    "max_position_ratio": 0.2,
+    "max_drawdown": -0.15,
+    "monitoring_interval": 300,
+    "alert_email": {
+      "sender": "your_email@gmail.com",
+      "password": "your_app_password"
+    }
+  }
