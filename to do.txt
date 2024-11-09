@@ -1,19 +1,31 @@
-To test the rate limiting, HTTPS access, and logging, we need to run the application. However, since we can't directly run the application in this environment, I'll provide you with instructions on how to test these features:
+# To Do
 
-Run the application:
-Execute the following command in the terminal:
+## Run the Application
+1. Open a terminal and execute the following command:
+   ```sh
+   python crypto_trading_bot/main.py
+   ```
 
-python crypto_trading_bot/main.py
-Test HTTPS access:
-Open a web browser and navigate to https://localhost:5000. You should see a security warning because we're using a self-signed certificate. Accept the warning and proceed. If you see a "Not Found" page, that's expected as we haven't defined a route for the root URL.
+## Test HTTPS Access
+1. Open a web browser and navigate to [https://localhost:5000](https://localhost:5000).
+   - You will see a security warning due to the self-signed certificate. Accept the warning and proceed.
+   - If you see a "Not Found" page, it is expected as the root URL route is not defined.
 
-Test rate limiting:
-Use a tool like curl or Postman to send multiple POST requests to https://localhost:5000/api/trade. You should be able to make 10 requests per minute. After that, you'll receive a 429 "Rate limit exceeded" error.
+## Test Rate Limiting
+1. Use a tool like `curl` or Postman to send multiple POST requests to:
+   ```sh
+   https://localhost:5000/api/trade
+   ```
+   - You can make up to 10 requests per minute. After that, a `429 "Rate limit exceeded"` error will be returned.
 
-Check logging:
-After running the application and performing some actions, check the contents of the app.log file. You should see log entries with timestamps, including information about trade requests, rate limit warnings, and any errors that occurred.
+## Check Logging
+1. After running the application and performing some actions, check the contents of the `app.log` file.
+   - The log entries will include timestamps, trade requests, rate limit warnings, and any errors.
 
-To view the contents of the log file after running the application, you can use the following command:
+2. To view the log file, use the following command:
+   ```sh
+   type crypto_trading_bot\app.log
+   ```
+   - Replace `type` with `cat` if using a Unix-based system.
 
-type crypto_trading_bot\app.log
-Remember to replace type with cat if you're using a Unix-based system.
+
