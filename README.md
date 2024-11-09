@@ -93,7 +93,7 @@ Then open a web browser and navigate to `https://localhost:5000` to access the d
 - `config.py`: Configuration file for API credentials
 - `security_audit.md`: Security audit checklist and documentation
 
-## Customization
+## Customisation
 
 You can customize the bot by modifying the following:
 
