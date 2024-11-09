@@ -1,0 +1,14 @@
+ccxt
+pandas
+numpy
+flask
+tensorflow
+scikit-learn
+flask-socketio
+flask-login
+flask-bcrypt
+sqlalchemy
+python-dotenv
+gym
+Flask-Limiter
+pyOpenSSL

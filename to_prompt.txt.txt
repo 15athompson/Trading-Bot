@@ -1,0 +1,3 @@
+I am looking to develop an automated trading bot that operates in the cryptocurrency market. I want the bot to focus on day trading using technical indicators, specifically the RSI and moving averages.
+I would like the bot to be programmed in Python using the ccxt library for exchange connectivity. The bot should execute trades based on specific RSI thresholds and moving average crossovers. It should also include features for backtesting strategies with historical data, logging trades, and implementing basic risk management strategies like stop-loss orders.
+Can you help me outline the code structure or provide a sample implementation for this trading bot?

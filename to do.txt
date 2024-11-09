@@ -1,0 +1,19 @@
+To test the rate limiting, HTTPS access, and logging, we need to run the application. However, since we can't directly run the application in this environment, I'll provide you with instructions on how to test these features:
+
+Run the application:
+Execute the following command in the terminal:
+
+python crypto_trading_bot/main.py
+Test HTTPS access:
+Open a web browser and navigate to https://localhost:5000. You should see a security warning because we're using a self-signed certificate. Accept the warning and proceed. If you see a "Not Found" page, that's expected as we haven't defined a route for the root URL.
+
+Test rate limiting:
+Use a tool like curl or Postman to send multiple POST requests to https://localhost:5000/api/trade. You should be able to make 10 requests per minute. After that, you'll receive a 429 "Rate limit exceeded" error.
+
+Check logging:
+After running the application and performing some actions, check the contents of the app.log file. You should see log entries with timestamps, including information about trade requests, rate limit warnings, and any errors that occurred.
+
+To view the contents of the log file after running the application, you can use the following command:
+
+type crypto_trading_bot\app.log
+Remember to replace type with cat if you're using a Unix-based system.
