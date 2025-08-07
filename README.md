@@ -138,7 +138,7 @@ This bot is for educational purposes only. Use it at your own risk. Cryptocurren
 - Optimize the bot for speed and efficiency
 - Add support for more advanced trading strategies
 
-## Sreenshots
+## Screenshots
 
 <img width="1064" height="579" alt="image" src="https://github.com/user-attachments/assets/a769f6cd-d26a-485b-8aa5-1c19a5a5b185" />
 
