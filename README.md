@@ -144,8 +144,6 @@ This bot is for educational purposes only. Use it at your own risk. Cryptocurren
 
 <img width="1088" height="790" alt="image" src="https://github.com/user-attachments/assets/f3bde779-1a6c-434c-b51d-036aaa19c4db" />
 
-<img width="500" height="558" alt="image" src="https://github.com/user-attachments/assets/3a4dc83c-103c-476d-be04-4d818216dc1b" />
-
 <img width="940" height="196" alt="image" src="https://github.com/user-attachments/assets/a1be4004-b1bb-4961-8123-cd89a771ba73" />
 
 <img width="940" height="207" alt="image" src="https://github.com/user-attachments/assets/d3582fd0-cdfb-49c9-99ba-06f8032d5b2c" />
